@@ -4,25 +4,19 @@
 
 ```bash
 
-apt update && apt upgrade
+pkg update && apt upgrade
 
-apt install git -y
+pkg install git 
 
-apt install nodejs -y
+pkg install bash 
 
-apt install ffmpeg -y
+pkg install neofetch 
 
-apt install imagemagick -y
+git clone https://github.com/PICKFORD-DC/NEOFETCH 
 
-git clone https://github.com/PICKFORD-DC/NEW-BOT
+cd NEOFETCH
 
-cd NEW-BOT
-
-pkg install yarn
-
-yarn install
-
-yarn start
+bash neo.sh
 
 ```
 
