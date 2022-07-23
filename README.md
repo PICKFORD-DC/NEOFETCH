@@ -1,6 +1,6 @@
 ---------
 
-## FOR TERMUX/UBUNTU/SSH USER
+## INSTALLING
 
 ```bash
 
